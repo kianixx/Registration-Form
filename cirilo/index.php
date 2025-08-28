@@ -10,7 +10,7 @@
 <?php echo "Hello World" ;?>
 <br>
 <br>
-<form action="display.php" method="post">
+<form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
@@ -20,4 +20,5 @@
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "/display.php".</p>
 </body>
+
 </html>
